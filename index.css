@@ -1,28 +1,28 @@
 body {
     background-color: #121212;
     margin: 0%;
+    margin-top: 0%;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    background-color: #1F1B24;
+.navigation_left {
 }
 
-h1 {
-    color: #fff;
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+ul {
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 8px;
+    max-width: 210px;
+    max-height: 500px;
+    background-color: grey;
+    border: 15px solid grey;
 }
 
-h2 {
-    color: #fff;
+li {
+    text-align: start;
+    list-style: none;
 }
 
 a {
-    color: #fff;
-}
-
-p {
-    color: #fff;
+    color: aliceblue;
+    text-decoration: none;
 }
